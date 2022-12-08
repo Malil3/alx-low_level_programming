@@ -1,12 +1,13 @@
 #include <stdio.h>
 /**
- * main -entry point
+ * main - entry point
  *
  * Return:0 if no errors, return non zero if errors
  */
 
-int main(void)
+itn main(void)
 {
+
 	printf("with proper grammar, but the outcome is a piece of art,");
 	return (0);
 
