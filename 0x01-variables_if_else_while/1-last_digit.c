@@ -1,7 +1,7 @@
-#include <stdio.h>
 #include <time.h>
+#include <stdio.h>
 /**
- * main - Generates random number
+ * main - entry point
  *
  * Return:0
  */
