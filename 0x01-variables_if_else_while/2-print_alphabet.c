@@ -1,20 +1,22 @@
 #include <stdio.h>
-/**
- * main - entry point
- *
- * Return:0
- */
+/** 
+* main - entry point 
+*
+* Return:0 
+*
+*/
 
-int mai(void)
+int main(void)
 {
 	char c;
 
 	c = 'a';
-	while
-		(c <= 'z'){ 
+	while	
+		(c <='z'){
 			putchar(c);
 			c++;
 		}
-	putchar('\n');
+	
+	putchar('\n');	
 	return (0);
 }
