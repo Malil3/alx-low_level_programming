@@ -1,8 +1,8 @@
 #include <stdio.h>
-/** 
-* main - entry point 
+/**
+* main - entry point
 *
-* Return:0 
+* Return:0
 *
 */
 
@@ -11,12 +11,11 @@ int main(void)
 	char c;
 
 	c = 'a';
-	while	
-		(c <='z'){
+	while
+		(c <= 'z') {
 			putchar(c);
 			c++;
 		}
-	
-	putchar('\n');	
+	putchar('\n');
 	return (0);
 }
