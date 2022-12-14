@@ -1,11 +1,12 @@
 #include <stdio.h>
 /**
  * main - entry point
- * Reurn:0
+ * Return:0
  */
 int main(void)
 {
 	int a, b;
+
 	for (a = 1; a < 1024; a++)
 	{
 		if ((a % 3) == 0 || (a % 5) == 0)
