@@ -5,32 +5,38 @@
 
 void times_table(void)
 {
-	int love, joy, peace;
+	int love = 0;
+	int joy;
+	int peace;
 
-	for (love = 0; love < 10; love++)
+	while (love <= 9)
 	{
-		for (joy = 0; joy < 10; joy++)
+		joy = 0;
+		while (joy <= 9)
 		{
-			peace = joy * love;
+			peace = love * joy;
 			if (joy == 0)
 			{
-				_putchar(peace + '0');
+				_putchar('0' + peace);
 			}
-			if (peace < 10 && joy != 0)
+			else if (peace < 10)
+			{
+				_putchar(' ');
+				_putchar('0' + peace);
+			}
+			else
+			{
+				_putchar(('0' + peace / 10));
+				_putchar(('0' + peace % 10));
+			}
+			if (joy < 9)
 			{
 				_putchar(',');
 				_putchar(' ');
-				_putchar(' ');
-				_putchar(peace + '0');
 			}
-			else if (peace >= 0)
-			{
-				_putchar(',');
-				_putchar(' ');
-				_putchar((peace / 10) + '0');
-				_putchar((peace % 10) + '0');
-			}
+			joy++;
 		}
 		_putchar('\n');
+		love++;
 	}
 }
