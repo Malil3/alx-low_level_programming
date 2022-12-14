@@ -1,13 +1,14 @@
 #include "main.h"
 /**
  * print_times_table - prints the times table
- * @n:
+ * @n:int to check
  * Return:0
  */
 
 void print_times_table(int n)
 {
 	int love, joy, boo;
+
 	if (n >= 0 && n <= 15)
 	{
 		for (love = 0; love <= n; love++)
