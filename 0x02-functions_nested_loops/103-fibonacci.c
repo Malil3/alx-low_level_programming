@@ -20,7 +20,7 @@ int main(void)
 		c2 = candy;
 		if ((c1 % 2) == 0)
 		{
-			sawi + = c1;
+			sawi += c1;
 		}
 	}
 	printf("%ld\n", sawi);
