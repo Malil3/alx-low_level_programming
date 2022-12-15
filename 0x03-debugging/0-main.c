@@ -1,8 +1,10 @@
 #include "main.h"
+
 /**
  * main - Test if function is +/-
  * Return: 0
  */
+
 int main(void)
 {
 	int i;
