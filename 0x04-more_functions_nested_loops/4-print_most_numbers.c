@@ -7,7 +7,7 @@ void print_most_numbers(void)
 {
 	int candy;
 
-	for(candy = 48; candy < 58; candy++)
+	for (candy = 48; candy < 58; candy++)
 	{
 		if (candy != 50 && candy != 52)
 		{
