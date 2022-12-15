@@ -6,8 +6,8 @@
 
 void more_numbers(void)
 {
-	int sawi;
 	int candy;
+	int sawi;
 
 	for (candy = 0; candy < 10; candy++)
 	{
@@ -15,7 +15,7 @@ void more_numbers(void)
 		{
 			if (sawi >= 10)
 				_putchar((sawi / 10) + 48);
-				_putchar((sawi % 10) + 48);
+			_putchar((sawi % 10) + 48);
 		}
 		_putchar('\n');
 	}
