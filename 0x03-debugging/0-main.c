@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - test if function is +/-
- * Return:0
+ * main - Test if function is +/-
+ * Return: 0
  */
 int main(void)
 {
