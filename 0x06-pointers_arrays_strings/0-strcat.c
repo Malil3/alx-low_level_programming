@@ -19,7 +19,7 @@ char *_strcat(char *dest, char *src)
 		*(dest + string) = *(src + string2);
 		if (*(src + string2) == '\0')
 			break;
-		String++;
+		string++;
 		string2++;
 	}
 	return (dest);
