@@ -7,15 +7,15 @@
 char *leet(char *s)
 {
 	int string = 0, array;
-	int lowCase[] = {97, 101, 111, 116, 108};
-	int uppCase[] = {65, 69, 79, 84, 76};
+	int lowcase[] = {97, 101, 111, 116, 108};
+	int uppcase[] = {65, 69, 79, 84, 76};
 	int numbers[] = {52, 51, 48, 55, 49};
 
 	while (*(s + string) != '\0')
 	{
 		for (array = 0; array < 5; array++)
 		{
-			if (*(s + string) == lowerCase[array] || *(s + array) == uppCase[array])
+			if (*(s + string) == lowercase[array] || *(s + array) == uppcase[array])
 			{
 				*(s + string) = numbers[array];
 				break;
