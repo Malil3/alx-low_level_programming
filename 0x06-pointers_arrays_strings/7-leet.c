@@ -15,7 +15,7 @@ char *leet(char *s)
 	{
 		for (array = 0; array < 5; array++)
 		{
-			if (*(s + string) == lower_case[array] || *(s + array) == upp_case[array])
+			if (*(s + string) == lower_case[array] || *(s + string) == upp_case[array])
 			{
 				*(s + string) = numbers[array];
 				break;
