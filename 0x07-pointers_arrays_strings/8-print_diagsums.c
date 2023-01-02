@@ -17,7 +17,7 @@ void print_diagsums(int *a, int size)
 		if (love % (size + 1) == 0)
 			sum1 += *(a + love);
 		if (love % (size - 1) == 0 && love != 0 && love < size * size - 1)
-			sum2 += *(a + joy);
+			sum2 += *(a + love);
 	}
 	printf("%d, %d\n", sum1, sum2);
 }
