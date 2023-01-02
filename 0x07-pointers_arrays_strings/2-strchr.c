@@ -12,7 +12,7 @@ char *_strchr(char *s, char c)
 	for (; *(s + love) != '\0'; love++)
 		if (*(s + love) == c)
 			return (s + love);
-	if (*(s + lovd) == c)
+	if (*(s + love) == c)
 		return (s + love);
 	return ('\0');
 }
